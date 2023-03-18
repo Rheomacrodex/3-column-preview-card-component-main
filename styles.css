@@ -1,0 +1,67 @@
+header{
+  height: 10vw;
+}
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+.headings{
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  color:hsl(0, 0%, 95%);
+}
+.bodyText{
+  font-family: "Lexend Deca";
+  font-weight: 500;
+  color:hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 4vw;
+}
+
+#suvs{
+  background-color: hsl(184, 100%, 22%)
+}
+
+.row{
+  justify-content: center;
+}
+/* Desktop Screen */
+@media only screen and (min-width:992px){
+  #luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 1em 1em 0;
+  }
+  #sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1em 0 0 1em;
+  }
+  .btn{
+    background-color: hsl(0, 0%, 95%);
+    
+    border-radius: 5em;
+    font-family: "Lexend Deca";
+    font-size: 1em;
+    padding: 0.7vw;
+  }
+}
+
+/* Mobile Screen */
+@media only screen and (max-width:992px){
+
+  #sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1em 1em 0 0;
+  }
+  #luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 1em 1em;
+}
+    .btn{
+      background-color: hsl(0, 0%, 95%);
+
+      border-radius: 5em;
+      font-family: "Lexend Deca";
+      font-size: 1em;
+      padding: 0.7vw;
+    }
+
+    }
+}
